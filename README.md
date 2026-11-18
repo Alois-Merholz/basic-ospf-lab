@@ -11,7 +11,6 @@ Mise en place d'une topologie réseau interconnectée sous **Cisco Packet Tracer
 - **3 Switches (2960)** et **3 PC** pour simuler les différents segments réseau / départements.
 - Fichier Packet Tracer disponible dans le dépôt : [Télécharger le fichier .pkt du laboratoire](/TP-routage-ospf-simple.pkt)
 
-*(Optionnel - Si tu as ajouté ton image dans le dépôt)*
 ![Schéma de la topologie](./Tp-basic-ospf.png)
 
 ## 🛠️ Technologies & Protocoles Utilisés
@@ -20,10 +19,10 @@ Mise en place d'une topologie réseau interconnectée sous **Cisco Packet Tracer
 - **Encapsulation & Interfaces (GigabitEthernet)**
 
 ## 📂 Organisation du Dépôt
-- `configs/` : Contient les fichiers de configuration brute (`running-config`) extraits de chaque routeur :
-  - `Router0.cfg`
-  - `Router1.cfg`
-  - `Router2.cfg`
+- `configs/` : Contient les fichiers de configuration brute (running-config) extraits de chaque routeur :
+  - [Configuration de Router0](./configs/Router0.cfg)
+  - [Configuration de Router1](./configs/Router1.cfg)
+  - [Configurartion de Router2](./configs/Router2.cfg)
 
 ## 🔍 Validation
 - Test de connectivité validé par `ping` de bout en bout entre les différents ordinateurs (ex: PC0 vers PC2).
